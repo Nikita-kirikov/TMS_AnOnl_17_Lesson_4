@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Zero.Run();
+        //Zero.Run();
+        First.Run();
     }
 }
