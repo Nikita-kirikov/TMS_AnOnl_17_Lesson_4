@@ -8,8 +8,11 @@ public class Third {
         float sum1 = 0F;
         float sum2 = 0F;
 
-        for(int i = 0; i < array1.length; i++) {
+        for (int i = 0; i < array1.length; i++) {
             sum1 += array1[i];
+        }
+
+        for (int i = 0; i < array2.length; i++) {
             sum2 += array2[i];
         }
 

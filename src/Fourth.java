@@ -6,9 +6,9 @@ public class Fourth {
         boolean isFlag = false;
         int input = 0;
 
-        while(!isFlag && scan.hasNext()) {
+        while (!isFlag && scan.hasNext()) {
             input = scan.nextInt();
-            if(input <= 5 || input > 10) {
+            if (input <= 5 || input > 10) {
                 System.out.println("Попробуйте еще раз");
             }
             else {
@@ -27,7 +27,7 @@ public class Fourth {
                 }
             }
 
-            if(size != 0 ) {
+            if (size != 0 ) {
                 int[] array2 = new int[size];
                 for (int i = 0, j = 0; i < array.length; i++) {
                     if (array[i] % 2 == 0) {

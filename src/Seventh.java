@@ -5,7 +5,7 @@ public class Seventh {
         int[] numbers = {43,56,13,1,34,2,8,9,4};
         boolean isSorted = false;
 
-        while(!isSorted) {
+        while (!isSorted) {
             isSorted = true;
             int prev = 0;
 
